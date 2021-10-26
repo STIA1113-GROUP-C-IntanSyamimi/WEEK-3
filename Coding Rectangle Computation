@@ -1,0 +1,23 @@
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    double area;
+    double perimeter;
+    double length;
+    double width;
+    
+    length = 8;
+    width = 4;
+    area = length*width;
+    perimeter = length+length+width+width;
+    
+    System.out.print("The area of rectangle is ");
+    System.out.println(area);
+    System.out.print("The perimeter of rectangle is ");
+    System.out.println(perimeter);
+    
+    
+	}
+
+}
