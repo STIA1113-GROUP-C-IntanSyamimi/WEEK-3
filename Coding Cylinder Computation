@@ -1,0 +1,22 @@
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    double surfaceArea,baseArea,volume,radius,height;
+    
+    height = 6;
+    radius = 1.2;
+    final double PI = 3.14159265;
+    
+    surfaceArea = (2*PI*(radius*radius))+(2*PI*radius*height);
+    baseArea = PI*(radius*radius);
+    volume = PI*(radius*radius)*height;
+    
+    System.out.printf("The surface area of cylinder is %.2f" ,surfaceArea);
+    System.out.println();
+    System.out.printf("The base area of cylinder is %.2f" ,baseArea);
+    System.out.println();
+    System.out.printf("The volume of cylinder is %.2f" ,volume);
+    System.out.println();
+	}
+}
